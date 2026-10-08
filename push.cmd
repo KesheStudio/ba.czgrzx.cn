@@ -25,8 +25,13 @@ if errorlevel 1 (
     call :log_error "%old_version%" "%timestamp%" "git add failed"
     exit /b 1
 )
+set "extra_msg=%~1"
+if defined extra_msg (
+    git commit -m "%cur_version% %extra_msg%"
+) else (
+    git commit -m "%cur_version%"
+)
 
-git commit -m "%cur_version%"
 if errorlevel 1 (
     call :log_error "%old_version%" "%timestamp%" "git commit failed"
     exit /b 1

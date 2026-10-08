@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug ba_czgrzx_cn",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=ba_czgrzx_cn"
+                ],
+                "problemMatcher": "$rustc"
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
