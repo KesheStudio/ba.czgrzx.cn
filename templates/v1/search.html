@@ -1,0 +1,12 @@
+{% if q.is_empty() %}
+<p>请输入搜索内容</p>
+{% else if results.is_empty() %}
+<p>没有找到与「{{ q }}」相关的结果</p>
+{% else %}
+<ul>
+    {% for item in results %}
+    <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+
+{% endif %}

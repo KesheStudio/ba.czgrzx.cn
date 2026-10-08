@@ -1,0 +1,300 @@
+{
+  "profile": {
+    "character_id": 1, 
+    "names": {
+      "name_cn": "砂狼白子", 
+      "name_tw": "砂狼白子",
+      "name_jp_hg": "すなおおかみ しろこ",
+      "name_jp_kk": "スナオオカミ シロコ",
+      "name_jp_kj": "砂狼 シロコ",
+      "name_en": "Shiroko Sunaookami",
+      "name_ko": "스나오오카미 시로코"
+    },
+    "cv": {
+      "cv_cn": "安雪璃",
+      "cv_jp": "小仓唯",
+      "cv_ko": "李多恩 (이다은)"
+    },
+    "age": 16,
+    "height": 156,
+    "birthday": 516,
+    "artist": "Hwansang",
+    "launch_date": "2021-02-04",
+    "cg_level": 9,
+    "interest": [
+      "慢跑",
+      "体能训练",
+      "越野骑行"
+    ],
+    "momo_talk_status_message": "自行车伙伴招募中……(1/5)",
+    "introduction": "阿拜多斯高中所属，是热爱运动的阿拜多斯对策委员会的突击队长。虽然给人一种沉默寡言，冷若冰霜的印象，但实际上比谁都重视阿拜多斯高中。为了学院的复兴可以不择手段，所以偶尔会提出一些荒唐的提案。\"需要我的帮助？\""
+  },
+  "gameplay": {
+    "weapon_id": 1,
+    "favorite_items_id": 1,
+    "college_id": 1,
+    "club_id": 1,
+    "gift_preferences": [
+      {
+        "gift_id": 1,
+        "preference_level": 5
+      },
+      {
+        "gift_id": 2,
+        "preference_level": 5
+      },
+      {
+        "gift_id": 3,
+        "preference_level": 5
+      }
+    ],
+    "interactive_furniture": [
+      1
+    ],
+    "interactive_props": [
+      1
+    ],
+    "associated_role": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "attack_type": 1,
+    "defense_type": 1,
+    "job_type": 1,
+    "positioning_type": 1,
+    "terrain_adaptability": {
+      "block": 5,
+      "outdoor": 3,
+      "indoor": 1
+    },
+    "initial_star_rating": 3
+  },
+  "skills": {
+    "EX": 1,
+    "NS": 2,
+    "PS": 3,
+    "SS": 4,
+    "WPS": 5,
+    "GNS": {
+      "level1": 6,
+      "level2": 7,
+      "level3": 8
+    },
+    "LS": {
+      "character_id": null,
+      "skill_id": null
+    }
+  },
+  "media": {
+    "voice": [
+      {
+        "voice_path": "/src/audio/voice/voice_cn/shiroko_sunaookami/login_page.mp3",
+        "voice_type": 1,
+        "voice_name": "登录界面",
+        "voice_content": "Blue Archive",
+        "language": "cn"
+      },
+      {
+        "voice_path": "/src/audio/voice/voice_cn/shiroko_sunaookami/login_1.mp3",
+        "voice_type": 2,
+        "voice_name": "登陆1",
+        "voice_content": "Blue Archive",
+        "language": "cn"
+      }
+    ],
+    "gallery": {
+      "official_introduction_image_path": "/src/image/official_introduction/shiroko_sunaookami.webp",
+      "memory_hall_image_path": "/src/image/memory_hall/shiroko_sunaookami.webp",
+      "set": {
+        "jp_image_path": "/src/image/set/set_jp/shiroko_sunaookami.webp",
+        "tw_image_path": "/src/image/set/set_tw/shiroko_sunaookami.webp",
+        "tv_image_path": "/src/image/set/set_tv/shiroko_sunaookami.webp"
+      },
+      "official_derivative": [
+        {
+          "title": "https://x.com/kinnotamadx",
+          "image_path": "/src/image/official_derivative/shiroko_sunaookami_1.webp"
+        },
+        {
+          "title": "国服宣传图",
+          "image_path": "/src/image/official_derivative/shiroko_sunaookami_2.webp"
+        },
+        {
+          "title": "购买动画BD第一卷获得",
+          "image_path": "/src/image/official_derivative/shiroko_sunaookami_3.webp"
+        }
+      ],
+      "expression": [
+        "/src/image/expression/shiroko_sunaookami/1.webp",
+        "/src/image/expression/shiroko_sunaookami/2.webp",
+        "/src/image/expression/shiroko_sunaookami/3.webp"
+      ]
+    },
+    "video": [
+      {
+        "title": "记忆大厅视频",
+        "path": "/src/video/memoryhall/shiroko_sunaookami_1.mp4"
+      },
+      {
+        "title": "特典礼盒记忆大厅视频",
+        "path": "/src/video/memoryhall/shiroko_sunaookami_2.mp4"
+      }
+    ]
+  },
+  "attributes": {
+    "min": {
+      "attack_power": 340,
+      "defense": 19,
+      "health": 2492,
+      "healing_power": 1662,
+      "hit_rate": 707,
+      "dodgevalue": 808,
+      "critical_hit_value": 202,
+      "critical_damage_rate": 200,
+      "stable_value": 1384,
+      "range": 650,
+      "group_control_enhancement": 100,
+      "group_resistance": 100,
+      "ammo_count": 15,
+      "extra_ammo": 3,
+      "defense_penetration": 0,
+      "recovery_rate": 100,
+      "cost_resilience": 700,
+      "weapon": {
+        "weapon_id": 1,
+        "level": 0,
+        "health": 0,
+        "attack_power": 0
+      },
+      "ger": [
+        {
+          "ger_type": 1,
+          "ger_slot": 1,
+          "attack_power_rate": 0,
+          "critical_damage": 0
+        },
+        {
+          "ger_type": 2,
+          "ger_slot": 2,
+          "health": 0,
+          "group_resistance": 0,
+          "critical_hit_value": 0
+        },
+        {
+          "ger_type": 3,
+          "ger_slot": 3,
+          "critical_hit_value": 0,
+          "critical_damage": 0,
+          "health": 0
+        }
+      ],
+      "favorite_items": {
+        "favorite_items_id": 1,
+        "critical_damage": 0
+      },
+      "ability_liberation": {
+        "healing_power": 0,
+        "attack_power": 0,
+        "health": 0
+      },
+      "bond_level_rewards": [
+        {
+          "character_id": 1,
+          "level": 0,
+          "attack_power": 0,
+          "health": 0
+        },
+        {
+          "character_id": 2,
+          "level": 0,
+          "attack_power": 0,
+          "health": 0
+        },
+        {
+          "character_id": 3,
+          "level": 0,
+          "attack_power": 0,
+          "health": 0
+        }
+      ]
+    },
+    "max": {
+      "attack_power": 8079,
+      "defense": 108,
+      "health": 55775,
+      "healing_power": 5918,
+      "hit_rate": 707,
+      "dodgevalue": 808,
+      "critical_hit_value": 832,
+      "critical_damage_rate": 266,
+      "stable_value": 1384,
+      "range": 650,
+      "group_control_enhancement": 100,
+      "group_resistance": 136,
+      "ammo_count": 15,
+      "extra_ammo": 3,
+      "defense_penetration": 0,
+      "recovery_rate": 100,
+      "cost_resilience": 700,
+      "weapon": {
+        "weapon_id": 1,
+        "level": 60,
+        "health": 4074,
+        "attack_power": 780
+      },
+      "ger": [
+        {
+          "ger_type": 1,
+          "ger_slot": 1,
+          "attack_power_rate": 50,
+          "critical_damage": 2000
+        },
+        {
+          "ger_type": 2,
+          "ger_slot": 2,
+          "health": 13000,
+          "group_resistance": 36,
+          "critical_hit_value": 150
+        },
+        {
+          "ger_type": 3,
+          "ger_slot": 3,
+          "critical_hit_value": 480,
+          "critical_damage": 2600,
+          "health_rate": 15
+        }
+      ],
+      "favorite_items": {
+        "favorite_items_id": 1,
+        "critical_damage": 2000
+      },
+      "ability_liberation": {
+        "healing_power": 198,
+        "attack_power": 127,
+        "health": 1012
+      },
+      "bond_level_rewards": [
+        {
+          "character_id": 1,
+          "level": 50,
+          "attack_power": 197,
+          "health": 1190
+        },
+        {
+          "character_id": 2,
+          "level": 50,
+          "attack_power": 197,
+          "health": 1140
+        },
+        {
+          "character_id": 3,
+          "level": 50,
+          "attack_power": 207,
+          "health": 765
+        }
+      ]
+    }
+  }
+}

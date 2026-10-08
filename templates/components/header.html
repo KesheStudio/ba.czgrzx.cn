@@ -1,0 +1,45 @@
+<header id="headers">
+    <div class="logoContainer">
+        <img src="/static/logo/BA1.png" alt="BALOGO">
+        <img src="/static/logo/KS1.png" alt="KSLOGO">
+        <img src="/static/logo/TC1.png" alt="TCLOGO">
+    </div>
+    <nav hx-on::after-request="
+        const el = event.detail.elt;
+        if (el.matches('a[data-active]')) {
+            document.querySelectorAll('nav a[data-active]').forEach(a => a.dataset.active = 'false');
+            el.dataset.active = 'true';
+        }
+    ">
+        <a href="/" hx-get="/" hx-target="#main" hx-push-url="true"
+            data-active='{% if current_page == "home" %}true{% else %}false{% endif %}'>首页</a>
+        <a href="/students" hx-get="/students" hx-target="#main" hx-push-url="true"
+            data-active='{% if current_page == "students" %}true{% else %}false{% endif %}'>学生档案</a>
+        <a href="/colleges" hx-get="/colleges" hx-target="#main" hx-push-url="true"
+            data-active='{% if current_page == "colleges" %}true{% else %}false{% endif %}'>学院档案</a>
+        <a href="/furniture" hx-get="/furniture" hx-target="#main" hx-push-url="true"
+            data-active='{% if current_page == "furniture" %}true{% else %}false{% endif %}'>家具档案</a>
+        <a href="/props" hx-get="/props" hx-target="#main" hx-push-url="true"
+            data-active='{% if current_page == "props" %}true{% else %}false{% endif %}'>道具档案</a>
+        <a href="/about" hx-get="/about" hx-target="#main" hx-push-url="true"
+            data-active='{% if current_page == "about" %}true{% else %}false{% endif %}'>关于我们</a>
+    </nav>
+    <div>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="csasearch">
+                <path id="fill1"
+                    d="M15.8033 15.8033C12.8744 18.7322 8.12563 18.7322 5.1967 15.8033C2.26777 12.8744 2.26777 8.12563 5.1967 5.1967C8.12563 2.26777 12.8744 2.26777 15.8033 5.1967C18.7322 8.12563 18.7322 12.8744 15.8033 15.8033Z"
+                    fill="transparent" mask="url(#t-icon-search-overlap-fill1)" />
+                <path id="stroke2" d="M15.8027 15.8037L21.106 21.107" stroke-linecap="square" stroke-width="2"
+                    stroke="currentColor" mask="url(#t-icon-search-overlap-stroke2)" />
+                <path id="stroke1"
+                    d="M15.8033 15.8033C12.8744 18.7322 8.12563 18.7322 5.1967 15.8033C2.26777 12.8744 2.26777 8.12563 5.1967 5.1967C8.12563 2.26777 12.8744 2.26777 15.8033 5.1967C18.7322 8.12563 18.7322 12.8744 15.8033 15.8033Z"
+                    stroke-linecap="square" stroke-width="2" stroke="currentColor" />
+            </g>
+        </svg>
+        <input type="text" name="q" hx-get="/api/v1/search" hx-trigger="input changed delay:300ms" hx-target="#searchRes">
+        <div id="searchRes"></div>
+    </div>
+</header>
+
+<script type="module" src="/static/scripts/components/header.js"></script>
